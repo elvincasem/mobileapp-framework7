@@ -2,7 +2,7 @@
     
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.frame7.sample"
+        id          = "com.ajaxenabled.sample"
         versionCode = "1" 
         version     = "1.0.0" >
         <name>Ajax Enabled</name>
