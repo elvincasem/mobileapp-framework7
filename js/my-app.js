@@ -46,3 +46,29 @@ function createContentPage() {
     );
 	return;
 }
+function login(){
+	
+
+    var uname = document.getElementById("username").value;
+    var pwd = document.getElementById("password").value;
+
+    
+    $$.post('http://polyglot.world/polyglot_auth/login.php', {username: uname, password: pwd}, function (data) {
+       var datas = JSON.parse(data);
+        var user = datas.numberofuser;
+        console.log(datas);
+
+        if(user == "1"){
+			alert("loggedin");
+        }
+        
+        alert(data);
+        
+    },JSON);
+    
+    
+	
+	
+	
+	
+}

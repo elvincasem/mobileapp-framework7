@@ -5,7 +5,7 @@
         id          = "com.frame7.sample"
         versionCode = "1" 
         version     = "1.0.0" >
-        <name>Sample Frame7 App</name>
+        <name>Ajax Enabled</name>
         <description>
             A simple application for guessing a number game.
         </description>
@@ -20,4 +20,8 @@
         <icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
         <icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
         <icon src="icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+		<preference name="debuggable" value="false"/>
+		<plugin name="com.indigoway.cordova.whitelist.whitelistplugin" spec="1.1.1" source="pgb" />
+		<allow-navigation href="*" />
+		
     </widget>
